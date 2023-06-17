@@ -1,10 +1,17 @@
 import './App.css';
 
+import books from './data/books';
+
+import BooksList from './components/books-list';
+import BooksListContext from './contexts/book-list';
+
 function App() {
     return (
-        <div className="container">
-            <h1 className="text-xl lg:text-3xl font-bold underline">Tailwind is live!</h1>;
-        </div>
+        <BooksListContext.Provider value={books}>
+            <div className="container">
+                <BooksList />
+            </div>
+        </BooksListContext.Provider>
     );
 }
 
