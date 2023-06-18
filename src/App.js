@@ -1,17 +1,17 @@
-import './App.css';
-
-import books from './data/books';
-
+import AddBooks from './components/add-book';
 import BooksList from './components/books-list';
-import BooksListContext from './contexts/book-list';
+
+import './App.css';
+import { BooksListProvider } from './contexts/book-list-provider';
 
 function App() {
     return (
-        <BooksListContext.Provider value={books}>
+        <BooksListProvider>
             <div className="container">
+                <AddBooks />
                 <BooksList />
             </div>
-        </BooksListContext.Provider>
+        </BooksListProvider>
     );
 }
 

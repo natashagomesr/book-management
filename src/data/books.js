@@ -1,43 +1,32 @@
 const books = [
     {
         title: 'Dom Casmurro',
-        translatedTitle: 'Mr. Taciturn',
         author: 'Machado de Assis',
-        genre: 'Fiction',
-        publicationYear: 1899,
-        pageCount: 256,
+        description: 'Um romance cativante que explora temas como amor, ciúme e memória através dos olhos do enigmático personagem Dom Casmurro.',
     },
     {
         title: 'O Alquimista',
-        translatedTitle: 'The Alchemist',
         author: 'Paulo Coelho',
-        genre: 'Fiction',
-        publicationYear: 1988,
-        pageCount: 208,
+        description:
+            'Um conto transformador sobre um jovem pastor andaluz chamado Santiago, que embarca em uma jornada espiritual em busca de sua lenda pessoal.',
     },
     {
         title: 'Memórias Póstumas de Brás Cubas',
-        translatedTitle: 'Posthumous Memoirs of Bras Cubas',
         author: 'Machado de Assis',
-        genre: 'Fiction',
-        publicationYear: 1881,
-        pageCount: 256,
+        description:
+            'Um romance satírico e introspectivo narrado pelo protagonista já falecido, Brás Cubas, que reflete sobre sua vida e sociedade com humor e perspicácia.',
     },
     {
         title: 'Gabriela, Cravo e Canela',
-        translatedTitle: 'Gabriela, Clove and Cinnamon',
         author: 'Jorge Amado',
-        genre: 'Fiction',
-        publicationYear: 1958,
-        pageCount: 352,
+        description:
+            'Ambientado em uma pequena cidade litorânea na Bahia, o livro retrata a história apaixonante e sensual de Gabriela, uma mulher cativante que perturba as normas estabelecidas pela comunidade.',
     },
     {
         title: 'A Hora da Estrela',
-        translatedTitle: 'The Hour of the Star',
         author: 'Clarice Lispector',
-        genre: 'Fiction',
-        publicationYear: 1977,
-        pageCount: 96,
+        description:
+            'Uma novela comovente que explora a jornada existencial de Macabéa, uma jovem mulher empobrecida do Nordeste do Brasil, refletindo sobre identidade e existência humana.',
     },
 ];
 
