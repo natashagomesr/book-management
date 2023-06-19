@@ -1,6 +1,6 @@
 import { useContext, useState } from 'react';
 import { BooksListContext } from '../contexts/book-list-provider';
-import BookDetails from './book-details';
+import ModalDetails from './modal-details';
 
 const BookItem = ({ book, index }) => {
     const [showDetail, setShowDetail] = useState(false);
@@ -10,18 +10,23 @@ const BookItem = ({ book, index }) => {
         setShowDetail(!showDetail);
     };
 
-    console.log(index);
-
     return (
         <>
-            <div className="flex my-4">
-                <h2>{book.title}</h2>
-                <h3>{book.author}</h3>
-                <div onClick={handleDetailsClick}>{showDetail ? 'x' : 'Ver detalhes'}</div>
+            <div className="flex flex-col my-4 items-center max-w-[200px] border-2 rounded-md shadow-xl p-1.5">
+                <img className="h-80" alt="book" src={`${book.imgURL}`} />
+                <h2 className="min-h-[50px] text-center mt-1.5">{book.title}</h2>
+                <h3 className="text-slate-500 mt-1">{book.author}</h3>
+                <div
+                    className="border-2 rounded-md border-amber-300 cursor-pointer bg-amber-200 shadow-md mt-1 mb-1 w-full flex justify-center hover:bg-amber-300"
+                    onClick={handleDetailsClick}
+                >
+                    Ver detalhes
+                </div>
+                <div className="cursor-pointer" onClick={() => booksListContext.removeBook(index)}>
+                    🗑
+                </div>
+                {showDetail ? <ModalDetails book={book} onClose={() => setShowDetail(false)} /> : null}
             </div>
-            <div onClick={() => booksListContext.removeBook(index)}>Remover</div>
-            {showDetail ? <BookDetails book={book} /> : null}
-            ---------------------------------------------------------------------
         </>
     );
 };

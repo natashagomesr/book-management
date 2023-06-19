@@ -14,10 +14,7 @@ const BooksListProvider = ({ children }) => {
     const removeBook = (bookIndex) => {
         const arrayOfBooks = [...books];
 
-        // WIP
-        arrayOfBooks.slice(bookIndex, 1);
-
-        console.log(arrayOfBooks);
+        arrayOfBooks.splice(bookIndex, 1);
 
         setBooks(arrayOfBooks);
     };
