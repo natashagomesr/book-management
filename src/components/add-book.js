@@ -8,8 +8,13 @@ const AddBooks = () => {
     const [author, setAuthor] = useState('');
 
     const handleAddClick = () => {
-        const imgURL = 'https://icones.pro/wp-content/uploads/2021/03/symbole-du-livre-gris.png';
+        let validationInput;
 
+        if (title === '' || author === '') {
+            return validationInput;
+        }
+
+        const imgURL = 'https://icones.pro/wp-content/uploads/2021/03/symbole-du-livre-gris.png';
         booksListContext.addNewBook({ title, author, imgURL });
 
         setTitle('');

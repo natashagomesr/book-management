@@ -5,7 +5,7 @@ const ModalDetails = ({ onClose, book }) => {
                 <div className="cursor-pointer text-end text-amber-600 text-2xl p-6" onClick={onClose}>
                     X
                 </div>
-                <div className="flex flex-col items-center p-12">
+                <div className="flex flex-col items-center p-8">
                     <div className="text-center text-amber-600 text-3xl mb-5 ">Descrição</div>
                     <div className="text-slate-600">{book.title}</div>
                     <div className="text-slate-600 mb-5">{book.author}</div>

@@ -10,9 +10,9 @@
 - 🔃 Rotas
 - 👨‍💻 Desenvolvedores
 
-## 🔗 Link Documentação books.js
+## 🔗 Link Documentação
 
- As imagens, autor, título e descrição estão listadas no arquivo [`books.js`](./src/data/books.js) na pasta data.
+As imagens, autor, título e descrição estão listadas no arquivo [`books.js`](./src/data/books.js) na pasta data.
 
 ## ✨ Funcionalidades
 
@@ -58,7 +58,7 @@ Siga os passos e inclua as informações abaixo:
 
 <table>
   <tr>  
-    <td align="center"><a href="https://github.com/natashagomesr"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/98358842?v=4" width="100px;" alt=""/>
+    <td text-align="center"><a href="https://github.com/natashagomesr"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/98358842?v=4" width="100px;" alt=""/>
     <br /><sub><b>Natasha Gomes</b>
     <br></sub></a><br /> <a href="https://www.linkedin.com/in/natasha-gomes-r/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a></td>    
   </tr>
