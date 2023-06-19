@@ -1,4 +1,4 @@
-## 🚀 Testing GenesisBank
+## 🚀 Test GenesisBank
 
 ## 🧠 Contexto
 
@@ -52,7 +52,7 @@ Siga os passos e inclua as informações abaixo:
 
 | Endpoint          | Descrição                   |
 | ----------------- | --------------------------- |
-| ``                | Home Page                   |
+| `/`                | Home Page                   |
 
 ## ‍💻 Desenvolvedores
 
