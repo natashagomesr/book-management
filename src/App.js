@@ -9,7 +9,7 @@ function App() {
     return (
         <BooksListProvider>
             <Header />
-            <div className="container">
+            <div className="container font-extralight">
                 <AddBooks />
                 <BooksList />
             </div>

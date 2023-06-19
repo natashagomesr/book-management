@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+## 🚀 Testing GenesisBank
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🧠 Contexto
 
-## Available Scripts
+- 🔗 Link Documentação livros
+- ✨ Funcionalidades
+- 🎯 Requesitos Mínimos
+- 🛠️ Tecnologias Utilizadas
+- ⚙️ Como rodar o projeto localmente
+- 🔃 Rotas
+- 👨‍💻 Desenvolvedores
 
-In the project directory, you can run:
+## 🔗 Link Documentação books.js
 
-### `npm start`
+ As imagens, autor, título e descrição estão listadas no arquivo [`books.js`](./src/data/books.js) na pasta data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Desenvolver uma aplicação de lista de livros. A aplicação deve permitir aos usuários adicionar novos livros à lista, visualizar os detalhes de cada livro e removê-los da lista.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎯 Requisitos Mínimos
 
-### `npm run build`
+- A aplicação deve exibir uma lista de livros na página inicial, mostrando o título de cada livro e seu autor.
+- Os usuários devem poder adicionar um novo livro à lista, informando o título e o autor do livro.
+- Os usuários devem poder visualizar os detalhes de cada livro, como título, autor e uma descrição.
+- Os usuários devem poder remover um livro da lista.
+- Ao adicionar ou remover um livro, a página deve ser atualizada automaticamente para refletir as alterações.
+- Você pode estilizar a aplicação de acordo com sua preferência ou usar alguma bibliotecas de componentes como chakra ou tailwindui, etc.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tecnologias utilizadas nesse projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para a construção do projeto, as seguintes tecnologias foram utilizadas:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [React](https://react.dev/)
+- [Git/Github](https://github.com/)
+- [VScode](https://code.visualstudio.com/)
+- [Tailwind](https://tailwindcss.com/)
 
-### `npm run eject`
+## ⚙️ Como rodar o projeto localmente
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Siga os passos e inclua as informações abaixo:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Passo                   | Comando/informação |
+| ----------------------- | ------------------ |
+| Faça o fork             | `botão de forkar`  |
+| Faça o clone            | `git clone`        |
+| Instale as dependências | `npm i`            |
+| Rode o projeto          | `npm start`        |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🔃 Rotas:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| Endpoint          | Descrição                   |
+| ----------------- | --------------------------- |
+| ``                | Home Page                   |
 
-## Learn More
+## ‍💻 Desenvolvedores
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<table>
+  <tr>  
+    <td align="center"><a href="https://github.com/natashagomesr"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/98358842?v=4" width="100px;" alt=""/>
+    <br /><sub><b>Natasha Gomes</b>
+    <br></sub></a><br /> <a href="https://www.linkedin.com/in/natasha-gomes-r/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a></td>    
+  </tr>
+  
+</table>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h2>
+  <a href='#top'>🔝 Voltar para o topo.</a>
+</h2>
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br>
